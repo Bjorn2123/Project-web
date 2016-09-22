@@ -1,0 +1,328 @@
+    body {
+        margin: 0em;
+        padding: 0em;
+        background-color: #f4e5d9;
+        height: 100%;
+    }
+    
+.header2 {
+        background-color: #283484;
+        padding: 0em;
+        margin: 0em;
+        width: 100%;
+        display: none;
+    }
+
+    header {
+        background-color: #283484;
+        padding: 0em;
+        margin: 0em;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    #logo {
+        width: 10em;
+        padding-left: 1em;
+    }
+    
+    .navigeren {
+        display: inline-block;
+        color: #51b26a;
+        list-style-image: none;
+        padding-bottom: 1em;
+    }
+    
+    .navigeren ul {
+        display: flex;
+        align-items: center;
+        padding: 0em;
+        margin-top: 0.8em;
+        margin-bottom: .5em;
+    }
+    
+    .navigeren ul li {
+        display: inline-block;
+        color: #51b26a;
+        list-style-image: none;
+        text-decoration: none;
+    }
+    
+    .navigeren ul li a {
+        display: inline-block;
+        color: #51b26a;
+        list-style-image: none;
+        text-decoration: none;
+        font-family: nexa bold, sans-serif;
+        padding-left: 2em;
+        font-size: 1.5em;
+    }
+    
+    .navigeren2 {
+        background-color: #283484;
+        margin: 0;
+        display: none;
+        width: 100%;
+    }
+    
+    .navigeren2 ul {
+        background-color: #283484;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .navigeren2 ul li {
+        background-color: #283484;
+        list-style-type: none;
+        display: inline-block;
+    }
+    
+    .navigeren2 ul li a {
+        background-color: #283484;
+        list-style-type: none;
+        display: inline-block;
+        color: #51b26a;
+        text-decoration: none;
+        font-family: nexa bold, sans-serif;
+        padding: .5em;
+    }
+    
+
+
+.aside {
+    height: 100%;
+}
+    
+    .sidebar {
+        width: 10em;
+        height: auto;
+        border-right: .1em solid #283484;
+        border-bottom: .1em solid #283484;
+        background-color: #ffffff;
+        margin: 0;
+        padding-bottom: 1em;
+        position: absolute;
+    }
+    
+    .filter {
+        list-style-type: none;
+        font-family: nexa bold, sans-serif;
+        font-size: .8em;
+    }
+    
+    .sorteer {
+        list-style-type: none;
+        font-family: nexa bold, sans-serif;
+        font-size: .8em;
+    }
+    
+    h1 {
+        padding: 1em;
+        margin: 0em;
+        font-family: nexa bold, sans-serif;
+        color: #283484;
+        border: .1em solid;
+        border-color: #283484;
+        border-radius: .5em;
+        width: 10em;
+        height: 3em;
+        text-align: center;
+    }
+    
+    h3 {
+        padding: 1em;
+        font-family: nexa bold, sans-serif;
+        color: #51b26a;
+    }
+    
+    h4 {
+        padding-left: 1em;
+        font-family: nexa bold, sans-serif;
+        color: #283484;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 10em;
+        min-height: 100%;
+    }
+    
+    .categorien {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        padding: .1em;
+        margin: auto;
+    }
+    
+    .mobfilter {
+        background-color: #51b26a;
+        font-family: nexa bold, sans-serif;
+        padding: .8em;
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 1em;
+        margin: .5em;
+        display: none;
+    }
+    
+    .verhaal {
+        width: 15em;
+        max-height: auto;
+        border: .1em solid #51b26a;
+        border-radius: .5em;
+        margin: 1em;
+        padding: 1em;
+        background: #ffffff;
+        color: #283484;
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+    
+    .verhaal p {
+        font-family: nexa bold, sans-serif;
+        font-size: 1em;
+    }
+    
+    footer {
+        color: #51b26a;
+        font-family: nexa bold, sans-serif;
+    }
+    
+    .leesmeer {
+        text-align: right;
+        border: .1em solid #51b26a;
+        border-radius: .5em;
+        background-color: #51b26a;
+        color: white;
+        font-family: nexa bold, sans-serif;
+        box-shadow: .1em .1em .2em #51b26a;
+        padding: .5em;
+        max-width: 5em;
+    }
+    
+    .leesmeer a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .pagefooter {
+        border-bottom: .1em solid;
+        background-color: #283484;
+        padding: 0em;
+        margin: 0em;
+        
+    }
+    
+    #logofooter {
+        display: flex;
+        width: 10em;
+        padding-left: 1em;
+    }
+    
+    h2 {
+        font-family: nexa bold, sans-serif;
+        color: #283484;
+        line-height: 1.2em;
+        font-size: 1.3em;
+    }
+    
+    fieldset {
+        width: 50%;
+        height: auto;
+        background-color: #f8f7f7;
+        border: none;
+        border-radius: 2em;
+        padding: 1em;
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        font-family: nexa bold, sans-serif;
+        color: #283484;
+    }
+    
+    .aanmelden {
+        list-style-image: none;
+       
+    }
+    
+    .aanmelden ul {
+   
+    }
+    
+    .aanmelden ul li {
+        list-style-type: none;
+        padding: .5em;
+        width: 100%;
+    }
+    
+    button {
+        border: .1em solid #51b26a;
+        border-radius: .5em;
+        background-color: #51b26a;
+        padding: .5em 2em;
+        color: white;
+        font-family: nexa bold, sans-serif;
+        box-shadow: .1em .1em .2em #51b26a;
+    }
+
+@media screen and (max-width: 64em) {
+    .verhaal {
+        width: 20%;
+    }
+    
+    @media screen and (max-width: 48em) {
+    .verhaal {
+        width: 65%;
+        
+    }
+          .mobfilter {
+            display: flex;
+            flex-direction: row;
+        }
+          .sidebar {
+            display: none;
+        }
+        
+    }
+    
+    @media screen and (max-width: 700px) {
+        .sidebar {
+            display: none;
+        }
+        .mobfilter {
+            display: flex;
+            flex-direction: row;
+        }
+        .navigeren {
+            display: none;
+        }
+        section {
+            margin: 0;
+            padding: 0;
+        }
+        .verhaal {
+            margin: 1em auto;
+            width:15em;
+        }
+        
+        .navigeren2 {
+            display: inline-block;
+        }
+        
+        .header2 {
+            display: inline-block;
+        }
+        
+        header {
+            display: none;
+        }
+        
+        
+    }
+
