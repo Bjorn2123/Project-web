@@ -9,71 +9,89 @@
 </head>
 
 <body>
+    <header class="header2">
+        <img id="logo" src="images/ic_logo_transavia.png" alt="logo">
+
+    </header>
     <header>
 
         <nav class="navigeren">
             <ul>
-               <li><img id="logo" src="images/ic_logo_transavia.png" alt="logo"></li>
+                <li><img id="logo" src="images/ic_logo_transavia.png" alt="logo"></li>
                 <li><a href="overzichtpagina.html">Verhalen</a></li>
-                <li><a href="aanmeldpagina.html">Aanmelden</a> </li>
-
+                <li><a class="aanmeldenselect" href="aanmeldpagina.html">Aanmelden</a></li>
+                <li><a href="favorieten.html">Favorieten</a></li>
+                <li><a href="reading.html">Leeslijst</a></li>
             </ul>
         </nav>
 
 
     </header>
-  <nav class="navigeren2">
-            <ul>
-                <li><a href="overzichtpagina.html">Verhalen</a></li>
-                <li><a href="aanmeldpagina.html">Aanmelden</a> </li>
+    <nav class="navigeren2">
+        <ul>
+            <li><a href="overzichtpagina.html">Verhalen</a></li>
+            <li><a href="aanmeldpagina.html">Aanmelden</a> </li>
+            <li><a href="favorieten.html">Favorieten</a></li>
+            <li><a href="favorieten.html">Leeslijst</a></li>
 
-            </ul>
-        </nav>
+        </ul>
+    </nav>
+
+
     <form>
         <fieldset class="aanmelden">
 
-            
+            <div>
+                <legend>Meld je hier aan!</legend>
 
-            <ul>
-                <li>
-                    <label>Voornaam:</label>
-                    <input type="text">
-                </li>
-                <li>
-                    <label>Tussenvoegsel:</label>
-                    <input type="text">
-                </li>
-                <li>
-                    <label>Achternaam:</label>
-                    <input type="text">
-                </li>
-                <li>
-                    <label>Email:</label>
-                    <input type="email">
-                </li>
-                <li>
-                    <label>Adres:</label>
-                    <input type="text">
-                </li>
-                <li>
-                    <label>Telefoon:</label>
-                    <input type="tel">
-                </li>
-                <li>
-                    <label>Wachtwoord:</label>
-                    <input type="password">
-                </li>
-                <li><button>Aanmelden</button></li>
+                <label for="name">Voornaam:</label>
+                <input id="name" type="text" required>
 
 
-            </ul>
+                <label for="surname">Achternaam: </label>
+                <input id="surname" type="text" required>
 
+                <label for="addres">Adres: </label>
+                <input id="addres" type="text" required>
+
+                <label for="tel">Telefoon: </label>
+                <input id="tel" type="number" required>
+                
+                <label for="email">Email: </label>
+                <input id="email" type="email" placeholder="voorbeeld: @hotmail.com">
+
+                <label for="password">Wachtwoord: </label>
+                <input id="password" type="password" pattern="[A-Z a-z].{5,}" required> 
+                
+                
+             
+                
+                <p class="wachtwoordeis"> Het wachtwoord moet minstens 6 karakters lang zijn</p>
+
+                
+
+                <p class="feedback">Het formulier is goed ingevuld. U kunt zich nu aanmelden.</p>
+                
+                <footer><button>Aanmelden</button></footer>
+
+            </div>
 
 
         </fieldset>
+        
+<!--
+        <div class="popup">
+       <p>U bent met succes aangemeld. Klik hier om naar het overzicht te gaan</p>
+        
+    </div>
+-->
     </form>
+    
+    
+    
 
 
 </body>
+<script src="verhalen.js"></script>
 
 </html>
